@@ -18,10 +18,8 @@ DB_USER = os.getenv('DB_USER_PROD')
 DB_PASS = os.getenv('DB_PASS_PROD')
 DB_SCHEMA = os.getenv('DB_SCHEMA_PROD')
 
-# Verifique se todas as variáveis de ambiente estão carregadas corretamente
-assert all([DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASS, DB_SCHEMA]), "Uma ou mais variáveis de ambiente não estão definidas."
+assert all([DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASS, DB_SCHEMA])
 
-# Atualizar a URL do banco de dados para incluir o parâmetro sslmode
 DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}?sslmode=require"
 
 engine = create_engine(DATABASE_URL)
