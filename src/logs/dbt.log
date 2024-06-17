@@ -1,0 +1,24 @@
+[0m19:01:14.956635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B04E0F2C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B04E26FBC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B04E26D4C0>]}
+
+
+============================== 19:01:14.964300 | 718d9952-9a1d-4b53-afd6-f6f00c6254a0 ==============================
+[0m19:01:14.964300 [info ] [MainThread]: Running with dbt=1.8.2
+[0m19:01:14.965360 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '../', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:02:27.187050 [debug] [MainThread]: Starter project path: C:\Users\Jessica\Data-Warehouse\venv\Lib\site-packages\dbt\include\starter_project
+[0m19:02:27.204164 [info ] [MainThread]: 
+Your new dbt project "database_2pg2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:02:27.206182 [info ] [MainThread]: Setting up your profile.
